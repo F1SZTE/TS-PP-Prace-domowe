@@ -4,6 +4,9 @@ b = float(input("Podaj drugą liczbę: "))
 print("Dodawanie:", a + b)
 print("Odejmowanie:", a - b)
 print("Mnożenie:", a * b)
-print("Dzielenie:", a / b)
-print("Dzielenie całkowite:", a // b)
-print("Reszta z dzielenia:", a % b)
+if b != 0:
+    print("Dzielenie:", a / b)
+    print("Dzielenie całkowite:", a // b)
+    print("Reszta z dzielenia:", a % b)
+else:
+    print("Nie można dzielić przez 0!")
