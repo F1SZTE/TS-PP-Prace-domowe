@@ -1,4 +1,4 @@
 x = float(input())
 y = round(x)
 
-print(bin(y))
+print(bin(y)[2:])
